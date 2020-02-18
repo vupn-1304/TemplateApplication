@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+  <data>
+
+    <variable
+        name="mainModel"
+        type="com.pv.demoapp.ui.main.MainViewModel" />
+
+  </data>
+
+  <FrameLayout
+      android:id="@+id/container_main"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:background="@android:color/white"
+      tools:context=".ui.main.MainActivity">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/_48dp"
+        android:src="@drawable/ic_app" />
+  </FrameLayout>
+</layout>
